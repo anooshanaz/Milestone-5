@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: darkslategrey;
+    font-family: 'Times New Roman', Times, serif;
+}
+.form{
+    max-width: 600px;
+    padding: 20px;
+    background-color: azure;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 4px 3px 5px rgba(1,1,0,0);
+    border-radius: 20px;
+}
+.form h1{
+    text-align: center;
+    color: crimson;
+}
+.form-main{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, max(200px,1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+.form-main h2{
+    color:  blue;
+}
+button{
+    max-width: 500px;
+    padding: 20px;
+    background-color:brown;
+    color: white;
+    margin: 0 auto;
+    box-shadow: 4px 3px 5px rgba(1,1,0,0);
+    border-radius: 15px;
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+    text-align: center;
+}
+button:hover{
+    background-color:gray;
+}
+.bclass h2{
+    color: aliceblue;
+    justify-content: center;
+}
+#resume-display{
+    max-width: 600px;
+    padding: 20px;
+    background-color: azure;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 4px 3px 5px rgba(1,1,0,0);
+    border-radius: 20px;
+    outline: none;
+}
+
+.profilepic{
+    display: block;
+    margin: 0 auto;
+    border: 2px solid red;
+    box-shadow: 4px 3px 5px rgba(1,1,0,0);;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
